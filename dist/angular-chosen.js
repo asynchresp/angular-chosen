@@ -52,6 +52,7 @@
               });
             }
           });
+          options.search_contains = true;
           startLoading = function() {
             return element.addClass('loading').attr('disabled', true).trigger('chosen:updated');
           };
